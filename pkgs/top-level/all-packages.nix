@@ -15164,6 +15164,8 @@ with pkgs;
 
   artha = callPackage ../applications/misc/artha { };
 
+  ashuffle = callPackage ../applications/audio/ashuffle { };
+
   atlassian-cli = callPackage ../applications/office/atlassian-cli { };
 
   atomEnv = callPackage ../applications/editors/atom/env.nix {
